@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/valentin/Master_Thesis/Coding/Cartpole/build",
+  "command": "/usr/bin/g++  -DUSE_C10D_GLOO -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -isystem /home/valentin/Cpp_pack/libtorch/include -isystem /home/valentin/Cpp_pack/libtorch/include/torch/csrc/api/include   -D_GLIBCXX_USE_CXX11_ABI=0 -g   -D_GLIBCXX_USE_CXX11_ABI=0 -o CMakeFiles/slow_build_up.dir/slow_build_up.cpp.o -c /home/valentin/Master_Thesis/Coding/Cartpole/slow_build_up.cpp",
+  "file": "/home/valentin/Master_Thesis/Coding/Cartpole/slow_build_up.cpp"
+},
+{
+  "directory": "/home/valentin/Master_Thesis/Coding/Cartpole/build",
+  "command": "/usr/bin/g++  -DUSE_C10D_GLOO -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -isystem /home/valentin/Cpp_pack/libtorch/include -isystem /home/valentin/Cpp_pack/libtorch/include/torch/csrc/api/include   -D_GLIBCXX_USE_CXX11_ABI=0 -g   -D_GLIBCXX_USE_CXX11_ABI=0 -std=gnu++14 -o CMakeFiles/deepl_actions.dir/deepl_actions.cpp.o -c /home/valentin/Master_Thesis/Coding/Cartpole/deepl_actions.cpp",
+  "file": "/home/valentin/Master_Thesis/Coding/Cartpole/deepl_actions.cpp"
+},
+{
+  "directory": "/home/valentin/Master_Thesis/Coding/Cartpole/build",
+  "command": "/usr/bin/g++  -DUSE_C10D_GLOO -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -isystem /home/valentin/Cpp_pack/libtorch/include -isystem /home/valentin/Cpp_pack/libtorch/include/torch/csrc/api/include   -D_GLIBCXX_USE_CXX11_ABI=0 -g   -D_GLIBCXX_USE_CXX11_ABI=0 -std=gnu++14 -o CMakeFiles/randomactions.dir/randomactions.cpp.o -c /home/valentin/Master_Thesis/Coding/Cartpole/randomactions.cpp",
+  "file": "/home/valentin/Master_Thesis/Coding/Cartpole/randomactions.cpp"
+},
+{
+  "directory": "/home/valentin/Master_Thesis/Coding/Cartpole/build",
+  "command": "/usr/bin/g++  -DUSE_C10D_GLOO -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -isystem /home/valentin/Cpp_pack/libtorch/include -isystem /home/valentin/Cpp_pack/libtorch/include/torch/csrc/api/include   -D_GLIBCXX_USE_CXX11_ABI=0 -g   -D_GLIBCXX_USE_CXX11_ABI=0 -std=gnu++14 -o CMakeFiles/trying_new.dir/trying_new.cpp.o -c /home/valentin/Master_Thesis/Coding/Cartpole/trying_new.cpp",
+  "file": "/home/valentin/Master_Thesis/Coding/Cartpole/trying_new.cpp"
+}
+]

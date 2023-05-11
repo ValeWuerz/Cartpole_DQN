@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/valentin/Master_Thesis/Coding/build",
+  "command": "/usr/bin/g++  -DUSE_C10D_GLOO -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -isystem /home/valentin/Cpp_pack/libtorch/include -isystem /home/valentin/Cpp_pack/libtorch/include/torch/csrc/api/include   -D_GLIBCXX_USE_CXX11_ABI=0 -g   -D_GLIBCXX_USE_CXX11_ABI=0 -std=gnu++14 -o CMakeFiles/testing.dir/testing.cpp.o -c /home/valentin/Master_Thesis/Coding/NeuralNet/testing.cpp",
+  "file": "/home/valentin/Master_Thesis/Coding/NeuralNet/testing.cpp"
+},
+{
+  "directory": "/home/valentin/Master_Thesis/Coding/build",
+  "command": "/usr/bin/g++  -DUSE_C10D_GLOO -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -isystem /home/valentin/Cpp_pack/libtorch/include -isystem /home/valentin/Cpp_pack/libtorch/include/torch/csrc/api/include   -D_GLIBCXX_USE_CXX11_ABI=0 -g   -D_GLIBCXX_USE_CXX11_ABI=0 -std=gnu++14 -o CMakeFiles/neural_net.dir/neural_net.cpp.o -c /home/valentin/Master_Thesis/Coding/NeuralNet/neural_net.cpp",
+  "file": "/home/valentin/Master_Thesis/Coding/NeuralNet/neural_net.cpp"
+}
+]

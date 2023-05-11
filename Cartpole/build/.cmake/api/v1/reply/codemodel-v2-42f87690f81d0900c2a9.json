@@ -1,0 +1,86 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "randomactions",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "deepl_actions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deepl_actions-Debug-46acb661ab07d01de356.json",
+					"name" : "deepl_actions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "randomactions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-randomactions-Debug-d56a2e16bbf9b143486d.json",
+					"name" : "randomactions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "slow_build_up::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-slow_build_up-Debug-5eb66c41107aab755bb8.json",
+					"name" : "slow_build_up",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trying_new::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trying_new-Debug-92fb904689a8548eeed9.json",
+					"name" : "trying_new",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/valentin/Master_Thesis/Coding/Cartpole/build",
+		"source" : "/home/valentin/Master_Thesis/Coding/Cartpole"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

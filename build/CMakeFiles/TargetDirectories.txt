@@ -1,0 +1,4 @@
+/home/valentin/Master_Thesis/Coding/build/CMakeFiles/rebuild_cache.dir
+/home/valentin/Master_Thesis/Coding/build/CMakeFiles/edit_cache.dir
+/home/valentin/Master_Thesis/Coding/build/CMakeFiles/testing.dir
+/home/valentin/Master_Thesis/Coding/build/CMakeFiles/neural_net.dir

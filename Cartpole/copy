@@ -1,0 +1,29 @@
+#include <torch/torch.h>
+
+int main() {
+  // Create a Sequential model
+  std::shared_ptr<torch::nn::Sequential> q_net = std::make_shared<torch::nn::Sequential>(
+    torch::nn::Linear(4, 128),
+    torch::nn::ReLU(),
+    torch::nn::Linear(128, 2)
+  );
+        torch::nn::Sequential q_net2(
+    torch::nn::Linear(4, 128),
+    torch::nn::ReLU(),
+    torch::nn::Linear(128, 2)
+  );
+  // Create a deep copy of the model
+  std::shared_ptr<torch::nn::Sequential> q_net_copy = std::make_shared<torch::nn::Sequential>(q_net2);
+   torch::nn::Sequential& q_net_copy_deref = *q_net_copy;
+
+   torch::nn::Sequential& q_net_ref = *q_net;
+  std::cout << q_net_copy_deref << std::endl;
+  std::cout << q_net_ref << std::endl;
+  //std::cout << *q_net_copy<<std::endl;
+  //std::cout << q_net_ref->size()<<std::endl;
+  
+
+
+  // Use the model and the copy for inference or training
+
+}
