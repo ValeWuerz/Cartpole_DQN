@@ -1,0 +1,68 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Deep_RL",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Cartpole_DRL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Cartpole_DRL-Debug-b451bb7bb3f6722dbd21.json",
+					"name" : "Cartpole_DRL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Cartpole_new::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Cartpole_new-Debug-766dc5322a29a9459c14.json",
+					"name" : "Cartpole_new",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/valentin/Master_Thesis/Coding/Cartpole_DRL/build",
+		"source" : "/home/valentin/Master_Thesis/Coding/Cartpole_DRL"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
